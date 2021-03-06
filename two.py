@@ -4,7 +4,7 @@ from collections import Counter
 
 
 def a():
-    count = 0
+    count = 1
     with open("input.txt", "r") as f:
         for line in f:
             (policy, char, password) = line.split()
